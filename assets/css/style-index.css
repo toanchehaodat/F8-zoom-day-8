@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+}
+.caption {
+    max-width: 500px;
+    max-height: 400px;
+    margin: 30px auto 0;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.caption h1 {
+    font-size: 2rem;
+}
+
+.caption ul li {
+    margin: 50px 50px;
+    text-decoration: none;
+    border: 1px solid green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0a500a;
+    border-radius: 5px;
+}
+
+.caption li:hover {
+    opacity: 0.8;
+}
+
+.caption ul li a {
+    display: block;
+    font-size: 1.6rem;
+    color: #dde41a;
+}
